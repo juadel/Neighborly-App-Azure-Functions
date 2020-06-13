@@ -6,22 +6,22 @@
 https://juadel-neighborly-client.azurewebsites.net/
 
 ## AZURE FUNCTIONS 
-http://juadel-neighborly.azurewebsites.net/api/createAdvertisement?
-http://juadel-neighborly.azurewebsites.net/api/getAdvertisements?
-http://juadel-neighborly.azurewebsites.net/api/getAdvertisement?
-http://juadel-neighborly.azurewebsites.net/api/deleteAdvertisement?
-http://juadel-neighborly.azurewebsites.net/api/getPost?
-http://juadel-neighborly.azurewebsites.net/api/getPosts?
-http://juadel-neighborly.azurewebsites.net/api/updateAdvertisement?
+http://juadel-neighborly.azurewebsites.net/api/createAdvertisement
+http://juadel-neighborly.azurewebsites.net/api/getAdvertisements
+http://juadel-neighborly.azurewebsites.net/api/getAdvertisement
+http://juadel-neighborly.azurewebsites.net/api/deleteAdvertisement
+http://juadel-neighborly.azurewebsites.net/api/getPost
+http://juadel-neighborly.azurewebsites.net/api/getPosts
+http://juadel-neighborly.azurewebsites.net/api/updateAdvertisement
 
 ## LIVE KUBERNETES CLUSTER
-http://52.143.93.109/api/createAdvertisement?
-http://52.143.93.109/api/getAdvertisements?
-http://52.143.93.109/api/getAdvertisement?
-http://52.143.93.109/api/deleteAdvertisement?
-http://52.143.93.109/api/getPosts?
-http://52.143.93.109/api/getPost?
-http://52.143.93.109/api/updateAdvertisement?
+http://52.143.93.109/api/createAdvertisement
+http://52.143.93.109/api/getAdvertisements
+http://52.143.93.109/api/getAdvertisement
+http://52.143.93.109/api/deleteAdvertisement
+http://52.143.93.109/api/getPosts
+http://52.143.93.109/api/getPost
+http://52.143.93.109/api/updateAdvertisement
 
 ## lOGIC APP
 
