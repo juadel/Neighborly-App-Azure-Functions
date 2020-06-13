@@ -6,13 +6,13 @@
 https://juadel-neighborly-client.azurewebsites.net/
 
 ## AZURE FUNCTIONS 
-juadel-neighborly.azurewebsites.net/api/createAdvertisement?
-juadel-neighborly.azurewebsites.net/api/getAdvertisements?
-juadel-neighborly.azurewebsites.net/api/getAdvertisement?
-juadel-neighborly.azurewebsites.net/api/deleteAdvertisement?
-juadel-neighborly.azurewebsites.net/api/getPost?
-juadel-neighborly.azurewebsites.net/api/getPosts?
-juadel-neighborly.azurewebsites.net/api/updateAdvertisement?
+http://juadel-neighborly.azurewebsites.net/api/createAdvertisement?
+http://juadel-neighborly.azurewebsites.net/api/getAdvertisements?
+http://juadel-neighborly.azurewebsites.net/api/getAdvertisement?
+http://juadel-neighborly.azurewebsites.net/api/deleteAdvertisement?
+http://juadel-neighborly.azurewebsites.net/api/getPost?
+http://juadel-neighborly.azurewebsites.net/api/getPosts?
+http://juadel-neighborly.azurewebsites.net/api/updateAdvertisement?
 
 ## LIVE KUBERNETES CLUSTER
 http://52.143.93.109/api/createAdvertisement?
