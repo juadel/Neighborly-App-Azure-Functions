@@ -6,9 +6,9 @@ from bson.json_util import dumps
 def main(req: func.HttpRequest) -> func.HttpResponse:
 
     try:
-        url = "localhost"  # TODO: Update with appropriate MongoDB connection information
+        url = "mongodb://nbcosmoaccount:1tiPIQQICkqWkIpZwqoaaysDL2BeSdDa2GQt3WtXd5Bjfwa09yGpJJ6TNhMSZw6r88ActF7LxqBoMnvysKF1rQ==@nbcosmoaccount.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@nbcosmoaccount@"  # TODO: Update with appropriate MongoDB connection information
         client = pymongo.MongoClient(url)
-        database = client['azure']
+        database = client['neighborlydb']
         collection = database['advertisements']
 
 

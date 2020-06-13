@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    service: neighborly-functions
+  name: neighborly-functions
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      service: neighborly-functions
+  template:
+    metadata:
+      labels:
+        service: neighborly-functions
+    spec:
+      containers:
+      - image: juadelneigborlyregistry.azurecr.io/neighborly:latest
+        name: neighborly-functions
+        imagePullPolicy: Always          
+        ports:
+        - containerPort: 80
+      restartPolicy: Always
+      imagePullSecrets:
+      - name: loginsecrets
+
+
